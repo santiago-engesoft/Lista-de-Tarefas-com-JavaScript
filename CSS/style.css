@@ -1,0 +1,73 @@
+*{
+    background: rgb(69, 66, 71);
+    
+
+}
+.container{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem;
+  
+}
+.container h1{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: rgb(149, 167, 221);
+    text-transform: uppercase;
+}
+.container p{
+    color: rgb(253, 84, 6);
+    font-size: 1.5rem;
+    
+}
+.container h3{
+    color: rgb(154, 176, 243);
+}
+.container span{
+    color: red;
+}
+.nova-tarefa input {
+    width: 80%;
+    background: rgb(229, 231, 230);
+    border: transparent;
+    color: rgb(247, 6, 255);
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 1rem 1rem;
+    padding-left: 2rem;
+
+}
+
+button{
+    cursor: pointer;
+    color: rgb(255, 94, 0);
+    background: rgb(14, 9, 80);
+   
+    width: 10rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 2rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border-radius: 2rem 1px 2rem;
+}
+button:hover{
+    color: rgb(14, 9, 80);
+    background: rgb(255, 94, 0);
+  
+}
+ .lista-ul{
+     font-size: 1.5rem;
+     color: rgb(238, 238, 245);
+    text-decoration: none;
+    list-style: number;
+     width: 100%;
+ }
+ .lista li{
+    background: #13131365;
+    
+   
+ }
